@@ -6,8 +6,9 @@
 .top {
   display: flex;
   flex-direction: row;
-  padding: 40px;
-  height: 50%;
+  padding: 5%;
+  height: fit-content;
+  border: black solid;
 }
 
 .main {
@@ -21,8 +22,9 @@
 
 #Headshot {
   border-radius: 50%;
-  width: 100%;
+  width: 80%;
   height: auto;
+  align-self: center;
 }
 
 .socials {
@@ -37,7 +39,7 @@
 }
 
 #Github {
-  width: 60%;
+  width: 40%;
   height: auto;
   align-self: center;
   display: block;
@@ -47,7 +49,7 @@
 }
 
 #LinkedIn {
-  width: 60%;
+  width: 40%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -56,12 +58,18 @@
 }
 
 #Insta {
-  width: 60%;
+  width: 40%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15%;
+}
+
+.main h1 {
+  align-self: center;
+  padding-top: 5%;
+  font-size: 3.5vw;
 }
 
 .bio {
