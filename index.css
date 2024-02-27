@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  height: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  width: 30%;
+  min-width: 200px;
+  min-height: 250px;
+}
+
+#Headshot {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5%;
+  width: 100%;
+}
+
+.socials a {
+  width: fit-content;
+}
+
+#Github {
+  width: 60%;
+  height: auto;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+}
+
+#LinkedIn {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15%;
+}
+
+#Insta {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15%;
+}
+
+.bio {
+  justify-content: right;
+  text-align: center;
+  font-size: 3vw;
+  width: 70%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #d8ddef;;
+}
+
+.bottom h1 {
+  font-size: 4vw;
+  width: 100%;
+  text-align: center;
+  font-weight: 999;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 10%;
+}
+
+.Lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Lists h2 {
+  margin-top: 10%;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 2.5vw;
+}
+
+.skills li {
+  transform: translateX(3vw);
+  margin-top: 20px;
+  font-size: 3vw;
+  width: fit-content;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.projects {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2%;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 2.5vw;
+  text-decoration: underline;
+  width: fit-content;
+  align-self: center;
+}
+
+.projects img {
+  align-self: center;
+  width: 90%;
+  height: auto;
+  margin-top: 10%;
+  box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.5);
+}
